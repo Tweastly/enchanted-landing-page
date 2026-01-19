@@ -1,4 +1,4 @@
-import heroBackground from "@/assets/minecraft-hero-bg.jpg";
+
 import { Download, BookOpen, MessageCircle } from "lucide-react";
 
 const Index = () => {
@@ -7,7 +7,7 @@ const Index = () => {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBackground})` }}
+        style={{ backgroundImage: `url(/minecraft-hero-bg.jpg)` }}
       />
       
       {/* Dark Overlay for better text readability */}
